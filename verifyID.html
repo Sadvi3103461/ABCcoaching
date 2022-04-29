@@ -1,0 +1,42 @@
+
+
+<html>
+    <head>
+        
+<style>
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+</style>
+        
+        
+        <script type="text/javascript">
+function clicked() {
+    alert('Your course is successfully added to the Cart');
+}
+        </script>
+    </head>
+<body>
+<label for="tentacles">Please Enter your Registration ID</label>
+
+<input type="number" id="tentacles" name="tentacles"
+       min="10" max="100">
+
+
+
+<label for="tentacles">Please Enter your Registered Mobile Number</label>
+
+<input type="number" id="tentacles" name="tentacles"
+       min="10" max="100">
+    
+    <br>
+    <br>
+    <input type="submit" onclick="clicked();" value="Submit" />
+    </body>
+</html>
